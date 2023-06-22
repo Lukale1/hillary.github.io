@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: lightblue;
+    line-height: 1.5;
+    font-family: sans-serif;
+    padding-left: 25px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    background-size: cover;
+    background: lightblue;
+    height: 109vh;
+    background-position: center;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 1200px;
+    float: left;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-style: italic;
+    margin-left: 65px;
+}
+
+.menu{
+    width: 800px;
+    float: left;
+    height: 70px;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+ul li a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+.p{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    max-width: 200px;
+}
+
+/* .search{
+    width: 330px;
+    margin-left: 650px;
+    float: left;
+}
+
+.srch{
+    background: transparent;
+    border: 1.5px solid orange;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+btn{
+    cursor: pointer;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.awe{
+    cursor: pointer;
+    margin-left: 450px;
+    margin-bottom: 150px;
+} */
